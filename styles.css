@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+  }
+.navbar {
+    background-color: #18ce15;
+    padding: 15px 20px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    color: aqua;
+    margin-right: 40px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: none;
+    color: #241ed4;
+  }
+  .background-image {
+    background-image: url('/images/front.webp');
+    background-size: cover;
+    background-position: center;
+    height: 600px; /* Adjust height as needed */
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    width: 45%;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 36px;
+  }
+ 
+
+/*#frontform h1{
+    display: contents;
+    font-size: 30px;
+    
+    height: 50vh;
+    width: 300px;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 1rem;
+    padding-top: 10px;
+    background-image: url('/images/front.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
+}
+
+
+#landing-text h2 {
+    color: #888;
+}
+
+#landing-image {
+
+    background-image: url("/images/andralogo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    padding-left: 5px;
+    height: 500px;
+    width: 450px;
+    margin: 10px;
+}*/
+div.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+ div.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+div.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+
+
+
+  
+#header {
+    padding:1px;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: center;
+    background: #4bbf4b;
+    color: #fff;
+    
+}
+
+#header p {
+    /*border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;*/
+    display: inline-block;
+    color: #241ed4;
+    font-size: 30px;
+    text-align: center;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+.caption p{
+    font-size: 40px;
+    color: #100da3;
+}
+.p1 p{
+    font-size: 30px;
+    color: #06050a;
+    text-align: left;
+}
+@media(min-width: 31.25rem) {
+    #landing {
+        display: flex;
+        height: 60%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
+   
+
+/* Style the container */
+.w3-container{
+    padding: 128px 16px;
+    color: #5551bd;
+  }
+div.w3-container{
+    background-color: #49cbd9;
+    background-image: url("/images/contact.jpg"); /* Change to the desired background color */
+  }
+ #contact{
+    background-image: url('/images/contact.jpg');
+    background-size: cover; /* or "contain" depending on your preference */
+    background-position: center;
+  }
+  
+  /* Style the heading */
+  .w3-center {
+    text-align: center;
+    color: #ed102a;
+  }
+  
+  /* Style the large text */
+  .w3-large {
+    font-size: 20px;
+  }
+  
+  /* Style the icon and text */
+  .w3-margin-right {
+    margin-right: 16px;
+  }
+  
+  /* Style the form inputs */
+  .w3-input {
+    width: 35%; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    padding: 4px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the button */
+  .w3-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .w3-button:hover {
+    background-color: #333;
+  }
+  
+  
+body{
+    background-color: #726fca;
+} 
+
